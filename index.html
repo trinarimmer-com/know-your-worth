@@ -8,12 +8,14 @@
     body { font-family: Georgia, serif; max-width: 700px; margin: 60px auto; padding: 0 24px; color: #1a1a1a; line-height: 1.7; }
     h1 { font-size: 2rem; margin-bottom: 8px; }
     p { margin-bottom: 1.2em; }
-    .versions { display: flex; gap: 24px; margin: 40px 0; }
-    .card { flex: 1; border: 1px solid #ddd; border-radius: 8px; padding: 24px; }
+    .versions { display: flex; gap: 24px; margin: 40px 0; flex-wrap: wrap; }
+    .card { flex: 1; min-width: 240px; border: 1px solid #ddd; border-radius: 8px; padding: 24px; }
     .card h2 { font-size: 1.1rem; margin-bottom: 8px; }
     .card p { font-size: 0.95rem; color: #555; }
     .btn { display: inline-block; margin-top: 16px; padding: 10px 20px; background: #C87A40; color: white; text-decoration: none; border-radius: 4px; font-family: sans-serif; font-size: 0.9rem; }
+    .btn:hover { background: #a8622e; }
     .cta { margin-top: 48px; padding-top: 32px; border-top: 1px solid #eee; font-size: 0.95rem; color: #444; }
+    a { color: #C87A40; }
   </style>
 </head>
 <body>
@@ -26,7 +28,7 @@
     <div class="card">
       <h2>The Original (2016)</h2>
       <p>Built in Rise with free stock photos, PPT-animated video, and dubbed audio. Lean, fast, and still holds up.</p>
-      <a class="btn" href="./original/">Try the original &rarr;</a>
+      <a class="btn" href="./original/content/">Try the original &rarr;</a>
     </div>
     <div class="card">
       <h2>The Rebuild (2026)</h2>
